@@ -1,6 +1,6 @@
-# MyUnit
+# MyUnit.py
 
-This is a thin wrapper of Sympy for peeps like me that deal with the natural units on a daily basis. Common usage is outlined in `demo.ipynb`. Even though there are fancy packages that can do much better, I find it more than enough for my usual order-of-magnitude estimates. 
+This is a thin wrapper of `SymPy` for peeps like me that deal with the natural units on a daily basis. Common usage is outlined in `demo.ipynb`. Even though there are fancy packages that can do much better, I find it more than enough for my usual order-of-magnitude estimates. 
 
 Even though it is aimed for personal light uses, a few close friends asked me if I could share. So here it is. Feel free to open issues and even contribute if you find it handy. 
 
@@ -91,3 +91,26 @@ print(test3.Mpl())
 # 3.06599166237184e-7*Mpc**1.0
 # 5.85358378779407e+50/Mpl
 ```
+
+# MyUnit.nb
+This is an early version with `Mathematica` written in 2017. Although I rarely use `Mathematica` these days, some of you may use it more often than `python`. I'm putting it here as well. 
+
+# License
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
+    MyUnit  A light weight wrapper to convert untis between natural and SI units.
+	Copyright (C) 2017-2022  Chen Sun
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+	
